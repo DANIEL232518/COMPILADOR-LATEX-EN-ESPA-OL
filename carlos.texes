@@ -1,0 +1,40 @@
+documento_inicio();
+
+titulo("Mi Nuevo Documento");
+autor("daniel pari");
+fecha("2024");
+
+configurar("idioma", "espanol");
+configurar("codificacion", "UTF-8");
+
+seccion("Introduccion");
+parrafo("Este es mi primer documento usando el compilador LaTeX en español.");
+
+subseccion("Objetivos");
+lista_simple();
+elemento("Aprender a usar el compilador");
+elemento("Crear documentos academicos");
+elemento("Escribir matematicas facilmente");
+fin_lista();
+
+seccion("Desarrollo");
+parrafo("Aqui puedes escribir el contenido principal de tu documento.");
+negrita("Texto importante en negrita.");
+cursiva("Texto con enfasis en cursiva.");
+subrayado("Texto subrayado para resaltar.");
+tachado("Texto tachado para mostrar cambios.");
+
+subseccion("Formulas Matematicas");
+ecuacion("E = mc^2");
+ecuacion("\\sum_{i=1}^{n} i = \\frac{n(n+1)}{2}");
+formula("a^2 + b^2 = c^2");
+
+subseccion("Texto Simple");
+parrafo Este es un parrafo sin comillas que demuestra;
+parrafo la flexibilidad del compilador para;
+parrafo escribir texto de manera natural;
+
+salto_linea();
+parrafo("Texto despues de un salto de linea.");
+
+documento_fin();
